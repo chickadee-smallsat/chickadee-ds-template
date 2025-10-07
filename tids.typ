@@ -2,16 +2,16 @@
 #import "@preview/cetz-plot:0.1.0": plot, chart
 
 #let company_info = (
-    name:           "Mingshu Semiconductors Inc.",
-    logo:           "./assets/demo-logo.svg",
-    website_url:    "https://github.com/oldrev",
+    name:           "Chickadee Smallsat WG",
+    logo:           "./assets/chickadee_wg.png",
+    website_url:    "https://github.com/chickadee-smallsat",
 )
 
 
 #let tids(ds_metadata: (
         title: [YourDSTitle],
         product: [YourProductName],
-        product_url: "https://github.com/oldrev/tids",
+        product_url: "https://github.com/chickadee-smallsat/tids",
         revision: [CurrentRevision],
         publish_date: [PublishedOn]
     ), features: [], applications: [], desc: [], rev_list: [], doc: []) = {
